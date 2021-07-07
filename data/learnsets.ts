@@ -43750,6 +43750,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			toxic: ["7M", "6M", "5M", "4M"],
 			uproar: ["7T", "6T", "5T", "4T"],
 			venoshock: ["7M", "6M", "5M"],
+			shoreup: ["7T", "8T"],
 		},
 	},
 	wormadamtrash: {
@@ -43813,6 +43814,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			toxic: ["7M", "6M", "5M", "4M"],
 			uproar: ["7T", "6T", "5T", "4T"],
 			venoshock: ["7M", "6M", "5M"],
+			recover: ["4T", "5T", "6T", "7T", "8T"],
 		},
 	},
 	mothim: {
