@@ -1736,4 +1736,21 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 
 		activate: "  [POKEMON] extends [MOVE] by 2 turns!",
 	},
+
+	// modded
+	bagwormbarricade: {
+		name: "Bagworm Barricade",
+		shortDesc: "This Pokemon receives 1/4 damage from supereffective attacks.",
+	},
+	blazingsoul: {
+		name: "Blazing Soul",
+		shortDesc: "If this Pokemon is at full HP, its Fire-type moves have their priority increased by 1.",
+		gen6: {
+			shortDesc: "This Pokemon's Fire-type moves have their priority increased by 1.",
+		},
+	},
+	hyperoffense: {
+		name: "Hyper Offense",
+		shortDesc: "This Pokemon's Attack is 1.5x, but it can only select the first move it executes.",
+	},
 };
