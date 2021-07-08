@@ -4493,7 +4493,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onSourceModifyDamage(damage, source, target, move) {
 			if (target.getMoveHitData(move).typeMod > 0) {
 				this.debug('Bagworm Barricade neutralize');
-				return this.chainModify(0.25);
+				return this.chainModify(0.33);
 			}
 		},
 		isBreakable: true,
