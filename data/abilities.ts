@@ -4499,7 +4499,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		isBreakable: true,
 		name: "Bagworm Barricade",
 		rating: 3,
-		num: -100,
+		num: 1000,
 	},
 	blazingsoul: {
 		onModifyPriority(priority, pokemon, target, move) {
@@ -4507,7 +4507,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		name: "Blazing Soul",
 		rating: 3,
-		num: -101,
+		num: 1001,
 	},
 	hyperoffense: {
 		onStart(pokemon) {
@@ -4549,6 +4549,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		name: "Hyper Offense",
 		rating: 4.5,
-		num: -102,
+		num: 1002,
 	},
 };
