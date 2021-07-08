@@ -1738,8 +1738,8 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 
 	// modded
-	bagwormbarricade: {
-		name: "Bagworm Barricade",
+	silksupport: {
+		name: "Silk Support",
 		shortDesc: "This Pokemon receives 1/3 damage from supereffective attacks.",
 	},
 	blazingsoul: {

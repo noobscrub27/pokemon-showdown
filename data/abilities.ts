@@ -4489,15 +4489,15 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 
 	// modded
-	bagwormbarricade: {
+	silksupport: {
 		onSourceModifyDamage(damage, source, target, move) {
 			if (target.getMoveHitData(move).typeMod > 0) {
-				this.debug('Bagworm Barricade neutralize');
+				this.debug('Silk Support neutralize');
 				return this.chainModify(0.33);
 			}
 		},
 		isBreakable: true,
-		name: "Bagworm Barricade",
+		name: "Silk Support",
 		rating: 3,
 		num: 1000,
 	},
